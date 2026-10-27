@@ -1,0 +1,44 @@
+
+name: Refresh Two Crafty Gays SEO Data
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  id-token: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out dashboard
+        uses: actions/checkout@v4
+
+      - name: Authenticate with Google
+        uses: google-github-actions/auth@v2
+        with:
+          workload_identity_provider: projects/544055608524/locations/global/workloadIdentityPools/two-crafty-gays-github/providers/github-actions
+          service_account: two-crafty-gays-seo-reader@two-crafty-gays-search-console.iam.gserviceaccount.com
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install Google API libraries
+        run: pip install google-api-python-client google-auth
+
+      - name: Refresh Search Console data
+        run: python scripts/refresh_search_console.py
+
+      - name: Save updated data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/
+          if ! git diff --cached --quiet; then
+            git commit -m "Refresh Search Console data"
+            git push
+          fi
