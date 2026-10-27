@@ -81,7 +81,7 @@ function loadSearchConsole(payload){
   liveSearchLoaded=true;
   const label=latest===BASELINE_LAST_DATE?'REFRESHED DATA · THROUGH ':'LIVE DATA · THROUGH ';
   $('dataStatus').textContent='✦ '+label+latest;
-  $('refreshStatus').textContent='Connected to data/search_console.json · Latest search date: '+latest+'. Daily metrics updated. Aggregate tables update when provided in the JSON.';
+  $('refreshStatus').textContent='Connected to data/search_console.json · Latest search date: '+latest+'. Daily metrics and available aggregate tables updated.';
   $('refreshDescription').textContent='Search Console data loads from data/search_console.json when this page opens. Your GitHub Actions workflow refreshes that file; the dashboard shows the newest available search date.';
   render();
   return true;
