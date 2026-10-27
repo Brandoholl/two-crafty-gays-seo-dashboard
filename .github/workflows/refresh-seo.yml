@@ -3,6 +3,8 @@ name: Refresh Two Crafty Gays SEO Data
 
 on:
   workflow_dispatch:
+  schedule:
+    - cron: '0 12 * * *'
 
 permissions:
   contents: write
