@@ -1,0 +1,6 @@
+{
+  "private": true,
+  "name": "two-crafty-gays-search-studio",
+  "version": "1.0.0",
+  "dependencies": { "fflate": "^0.8.2" }
+}
