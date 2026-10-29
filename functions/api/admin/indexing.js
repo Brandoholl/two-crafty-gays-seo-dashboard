@@ -57,8 +57,17 @@ function parseWorkbook(bytes){
 }
 export async function onRequestGet({request,env}){
  if(!env.SEO_REPORTS)return respond({error:'R2 binding SEO_REPORTS is missing'},503);
- if(!await authorized(request,env))return respond({error:'Sign in through Cloudflare Access to view private indexing reports'},403);
- try{
+if(!request.headers.get('Cf-Access-Jwt-Assertion'))
+  return respond({
+    error:'Cloudflare Access JWT header is missing',
+    code:'missing_access_header'
+  },403);
+
+if(!await authorized(request,env))
+  return respond({
+    error:'Cloudflare Access token verification failed',
+    code:'invalid_access_token'
+  },403); try{
   let cursor,latest=null;
   do{
    const result=await env.SEO_REPORTS.list({prefix:'reports/indexing/',limit:1000,...(cursor?{cursor}:{})});
