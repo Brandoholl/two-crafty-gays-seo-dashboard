@@ -99,33 +99,8 @@ if(!await authorized(request,env)){
     error:'Cloudflare Access token verification failed',
     diagnostic
   },403);
-}  const token=request.headers.get('Cf-Access-Jwt-Assertion');
-  let diagnostic={};
-  try{
-    const payload=JSON.parse(
-      new TextDecoder().decode(b64(token.split('.')[1]))
-    );
-    const issuer='https://'+env.ACCESS_TEAM_DOMAIN
-      .replace(/^https?:\/\//,'').replace(/\/+$/,'');
-
-    diagnostic={
-      issuerMatches:payload.iss?.replace(/\/+$/,'')===issuer,
-      audienceMatches:(Array.isArray(payload.aud)
-        ?payload.aud.includes(env.ACCESS_AUD.trim())
-        :payload.aud===env.ACCESS_AUD.trim()),
-      tokenExpired:payload.exp<=Date.now()/1000
-    };
-  }catch{
-    diagnostic={tokenDecodeFailed:true};
-  }
-  return respond({
-    error:'Cloudflare Access token verification failed',
-    diagnostic
-  },403);
-}  return respond({
-    error:'Cloudflare Access token verification failed',
-    code:'invalid_access_token'
-  },403); try{
+}
+ try{
   let cursor,latest=null;
   do{
    const result=await env.SEO_REPORTS.list({prefix:'reports/indexing/',limit:1000,...(cursor?{cursor}:{})});
