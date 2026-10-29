@@ -63,8 +63,31 @@ if(!request.headers.get('Cf-Access-Jwt-Assertion'))
     code:'missing_access_header'
   },403);
 
-if(!await authorized(request,env))
+if(!await authorized(request,env)){
+  const token=request.headers.get('Cf-Access-Jwt-Assertion');
+  let diagnostic={};
+  try{
+    const payload=JSON.parse(
+      new TextDecoder().decode(b64(token.split('.')[1]))
+    );
+    const issuer='https://'+env.ACCESS_TEAM_DOMAIN
+      .replace(/^https?:\/\//,'').replace(/\/+$/,'');
+
+    diagnostic={
+      issuerMatches:payload.iss?.replace(/\/+$/,'')===issuer,
+      audienceMatches:(Array.isArray(payload.aud)
+        ?payload.aud.includes(env.ACCESS_AUD.trim())
+        :payload.aud===env.ACCESS_AUD.trim()),
+      tokenExpired:payload.exp<=Date.now()/1000
+    };
+  }catch{
+    diagnostic={tokenDecodeFailed:true};
+  }
   return respond({
+    error:'Cloudflare Access token verification failed',
+    diagnostic
+  },403);
+}  return respond({
     error:'Cloudflare Access token verification failed',
     code:'invalid_access_token'
   },403); try{
