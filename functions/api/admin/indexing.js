@@ -8,9 +8,15 @@ async function authorized(request,env){
  try{
   const parts=token.split('.');if(parts.length!==3)return false;
   const header=JSON.parse(new TextDecoder().decode(b64(parts[0]))),p=JSON.parse(new TextDecoder().decode(b64(parts[1])));
-  const issuer='https://'+env.ACCESS_TEAM_DOMAIN.replace(/^https?:\/\//,'').replace(/\/+$/,'');
-  const aud=env.ACCESS_AUD.trim();
-  if(header.alg!=='RS256'||!header.kid||p.iss?.replace(/\/+$/,'')!==issuer||!(Array.isArray(p.aud)?p.aud.includes(aud):p.aud===aud)||p.exp<=Date.now()/1000||(p.nbf&&p.nbf>Date.now()/1000))return false;
+const issuer='https://'+env.ACCESS_TEAM_DOMAIN
+  .trim()
+  .replace(/^https?:\/\//,'')
+  .replace(/\/+$/,'');
+
+const normalizeIssuer=s=>String(s||'')
+  .trim()
+  .replace(/\/+$/,'');  const aud=env.ACCESS_AUD.trim();
+  if(header.alg!=='RS256'||!header.kid||normalizeIssuer(p.iss)!==normalizeIssuer(issuer)||!(Array.isArray(p.aud)?p.aud.includes(aud):p.aud===aud)||p.exp<=Date.now()/1000||(p.nbf&&p.nbf>Date.now()/1000))return false;
   const res=await fetch(issuer+'/cdn-cgi/access/certs');if(!res.ok)return false;
   const keys=await res.json(),jwk=keys.keys?.find(k=>k.kid===header.kid&&k.kty==='RSA');if(!jwk)return false;
   const key=await crypto.subtle.importKey('jwk',jwk,{name:'RSASSA-PKCS1-v1_5',hash:'SHA-256'},false,['verify']);
