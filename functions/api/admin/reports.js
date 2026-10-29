@@ -14,7 +14,7 @@ async function verifyAccess(request,env){
   if(header.alg!=='RS256'||!header.kid)return 'unsupported_token_header';
   const now=Math.floor(Date.now()/1000);
   const issuer='https://'+env.ACCESS_TEAM_DOMAIN.replace(/^https?:\/\//,'').replace(/\/$/,'');
-  if(payload.iss!==issuer)return 'issuer_mismatch';
+  if(typeof payload.iss!=='string'||payload.iss.replace(/\/+$/,'')!==issuer)return 'issuer_mismatch';
   if(!(Array.isArray(payload.aud)?payload.aud.includes(env.ACCESS_AUD):payload.aud===env.ACCESS_AUD))return 'audience_mismatch';
   if(typeof payload.exp!=='number'||payload.exp<=now)return 'expired_token';
   if(typeof payload.nbf==='number'&&payload.nbf>now)return 'token_not_yet_valid';
