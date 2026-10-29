@@ -21,7 +21,25 @@ async function verifyAccess(request,env){
   const allowedIssuers=new Set([issuer,issuer+'/cdn-cgi/access']);
   const actualIssuer=typeof payload.iss==='string'?payload.iss.replace(/\/+$/,''):'';
   if(!allowedIssuers.has(actualIssuer))return 'issuer_mismatch';
-  if(!(Array.isArray(payload.aud)?payload.aud.includes(env.ACCESS_AUD):payload.aud===env.ACCESS_AUD))return 'audience_mismatch';
+
+const tokenAudiences = Array.isArray(payload.aud)
+  ? payload.aud
+  : [payload.aud];
+
+const configuredAudience = String(env.ACCESS_AUD);
+
+if (!tokenAudiences.includes(configuredAudience)) {
+  return [
+    'audience_mismatch',
+    'token_count=' + tokenAudiences.length,
+    'token_lengths=' + tokenAudiences.map(a => String(a ?? '').length).join(','),
+    'configured_length=' + configuredAudience.length,
+    'trim_match=' + tokenAudiences.some(a =>
+      typeof a === 'string' &&
+      a.trim() === configuredAudience.trim()
+    )
+  ].join(';');
+}
   if(typeof payload.exp!=='number'||payload.exp<=now)return 'expired_token';
   if(typeof payload.nbf==='number'&&payload.nbf>now)return 'token_not_yet_valid';
   const jwksResponse=await fetch(issuer+'/cdn-cgi/access/certs');
