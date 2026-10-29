@@ -72,6 +72,35 @@ if(!request.headers.get('Cf-Access-Jwt-Assertion'))
 if(!await authorized(request,env)){
   const token=request.headers.get('Cf-Access-Jwt-Assertion');
   let diagnostic={};
+
+  try{
+    const payload=JSON.parse(
+      new TextDecoder().decode(b64(token.split('.')[1]))
+    );
+
+    const expectedIssuer='https://'+env.ACCESS_TEAM_DOMAIN
+      .trim()
+      .replace(/^https?:\/\//,'')
+      .replace(/\/+$/,'');
+
+    diagnostic={
+      tokenIssuerHost:new URL(payload.iss).hostname,
+      expectedIssuerHost:new URL(expectedIssuer).hostname,
+      audienceMatches:Array.isArray(payload.aud)
+        ?payload.aud.includes(env.ACCESS_AUD.trim())
+        :payload.aud===env.ACCESS_AUD.trim(),
+      tokenExpired:payload.exp<=Date.now()/1000
+    };
+  }catch{
+    diagnostic={decodeFailed:true};
+  }
+
+  return respond({
+    error:'Cloudflare Access token verification failed',
+    diagnostic
+  },403);
+}  const token=request.headers.get('Cf-Access-Jwt-Assertion');
+  let diagnostic={};
   try{
     const payload=JSON.parse(
       new TextDecoder().decode(b64(token.split('.')[1]))
