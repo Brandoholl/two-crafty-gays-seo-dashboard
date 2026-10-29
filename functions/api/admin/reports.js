@@ -4,6 +4,7 @@ const json=(obj,status=200)=>new Response(JSON.stringify(obj),{status,headers:{'
 function error(status,message){return json({error:message},status);}
 function configured(env){return Boolean(env.SEO_REPORTS&&env.ACCESS_TEAM_DOMAIN&&env.ACCESS_AUD);}
 function b64url(input){const s=input.replace(/-/g,'+').replace(/_/g,'/');return Uint8Array.from(atob(s+'='.repeat((4-s.length%4)%4)),c=>c.charCodeAt(0));}
+function normalizeTeamDomain(value){return String(value).trim().replace(/^https?:\/\//i,'').replace(/\/+$/,'').toLowerCase();}
 async function verifyAccess(request,env){
  const token=request.headers.get('Cf-Access-Jwt-Assertion');
  if(!token)return 'missing_access_header';
@@ -13,8 +14,13 @@ async function verifyAccess(request,env){
   const payload=JSON.parse(new TextDecoder().decode(b64url(parts[1])));
   if(header.alg!=='RS256'||!header.kid)return 'unsupported_token_header';
   const now=Math.floor(Date.now()/1000);
-  const issuer='https://'+env.ACCESS_TEAM_DOMAIN.replace(/^https?:\/\//,'').replace(/\/$/,'');
-  if(typeof payload.iss!=='string'||payload.iss.replace(/\/+$/,'')!==issuer)return 'issuer_mismatch';
+  const teamDomain=normalizeTeamDomain(env.ACCESS_TEAM_DOMAIN);
+  const issuer='https://'+teamDomain;
+  // Cloudflare Access JWTs may identify the issuer with the /cdn-cgi/access path.
+  // Compare only the documented issuer forms, not arbitrary URLs on the same host.
+  const allowedIssuers=new Set([issuer,issuer+'/cdn-cgi/access']);
+  const actualIssuer=typeof payload.iss==='string'?payload.iss.replace(/\/+$/,''):'';
+  if(!allowedIssuers.has(actualIssuer))return 'issuer_mismatch';
   if(!(Array.isArray(payload.aud)?payload.aud.includes(env.ACCESS_AUD):payload.aud===env.ACCESS_AUD))return 'audience_mismatch';
   if(typeof payload.exp!=='number'||payload.exp<=now)return 'expired_token';
   if(typeof payload.nbf==='number'&&payload.nbf>now)return 'token_not_yet_valid';
@@ -41,7 +47,7 @@ export async function onRequest(context){
  if(request.method!=='POST')return error(405,'Method not allowed');
  const url=new URL(request.url),type=url.searchParams.get('type'),filename=url.searchParams.get('filename')||'';
  if(!TYPES.has(type))return error(400,'Invalid report type');
- if(filename.length>180||!filename||/[\/\\\x00-\x1f]/.test(filename)||! /\.(csv|xlsx|xls)$/i.test(filename))return error(400,'Upload a CSV or Excel file with a valid filename');
+ if(filename.length>180||!filename||/[\/\\\x00-\x1f]/.test(filename)||!/\.(csv|xlsx|xls)$/i.test(filename))return error(400,'Upload a CSV or Excel file with a valid filename');
  const size=Number(request.headers.get('content-length')||0);if(size>MAX_BYTES)return error(413,'Maximum file size is 10 MB');
  const buffer=await request.arrayBuffer();if(buffer.byteLength>MAX_BYTES||!buffer.byteLength)return error(413,'File is empty or exceeds 10 MB');
  const id=crypto.randomUUID();const key='reports/'+type+'/'+new Date().toISOString().slice(0,10)+'/'+id+'/'+filename;
