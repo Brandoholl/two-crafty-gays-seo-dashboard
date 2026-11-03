@@ -1,24 +1,15 @@
 {
   "site": "sc-domain:twocraftygays.com",
-  "startDate": "2025-10-31",
-  "endDate": "2026-10-30",
-  "lastUpdated": "2026-11-02",
+  "startDate": "2025-11-01",
+  "endDate": "2026-10-31",
+  "lastUpdated": "2026-11-03",
   "summary": {
-    "clicks": 2007,
-    "impressions": 48558,
-    "ctr": 0.04133201532188311,
-    "position": 7.757794802092343
+    "clicks": 2012,
+    "impressions": 48697,
+    "ctr": 0.04131671355524981,
+    "position": 7.748896235907756
   },
   "daily": [
-    {
-      "keys": [
-        "2025-10-31"
-      ],
-      "clicks": 0,
-      "impressions": 31,
-      "ctr": 0,
-      "position": 14.225806451612904
-    },
     {
       "keys": [
         "2025-11-01"
@@ -3294,6 +3285,15 @@
       "impressions": 215,
       "ctr": 0.03255813953488372,
       "position": 7.632558139534884
+    },
+    {
+      "keys": [
+        "2026-10-31"
+      ],
+      "clicks": 5,
+      "impressions": 170,
+      "ctr": 0.029411764705882353,
+      "position": 6.3882352941176475
     }
   ],
   "queries": [
@@ -3301,9 +3301,9 @@
       "keys": [
         "two crafty gays"
       ],
-      "clicks": 297,
-      "impressions": 342,
-      "ctr": 0.868421052631579,
+      "clicks": 298,
+      "impressions": 343,
+      "ctr": 0.8688046647230321,
       "position": 1
     },
     {
@@ -3464,9 +3464,9 @@
         "lizzie mcguire shirt"
       ],
       "clicks": 3,
-      "impressions": 1144,
-      "ctr": 0.0026223776223776225,
-      "position": 9.621503496503497
+      "impressions": 1145,
+      "ctr": 0.0026200873362445414,
+      "position": 9.622707423580787
     },
     {
       "keys": [
@@ -3536,9 +3536,9 @@
         "hannah montana shirt"
       ],
       "clicks": 2,
-      "impressions": 180,
-      "ctr": 0.011111111111111112,
-      "position": 8.494444444444444
+      "impressions": 181,
+      "ctr": 0.011049723756906077,
+      "position": 8.486187845303867
     },
     {
       "keys": [
@@ -3554,9 +3554,9 @@
         "hilary duff hat"
       ],
       "clicks": 2,
-      "impressions": 147,
-      "ctr": 0.013605442176870748,
-      "position": 11.07482993197279
+      "impressions": 148,
+      "ctr": 0.013513513513513514,
+      "position": 11.013513513513514
     },
     {
       "keys": [
@@ -3608,9 +3608,9 @@
         "jonas brothers air freshener"
       ],
       "clicks": 2,
-      "impressions": 137,
-      "ctr": 0.014598540145985401,
-      "position": 9.087591240875913
+      "impressions": 136,
+      "ctr": 0.014705882352941176,
+      "position": 9.058823529411764
     },
     {
       "keys": [
@@ -3869,9 +3869,9 @@
         "high school musical shirts"
       ],
       "clicks": 1,
-      "impressions": 28,
-      "ctr": 0.03571428571428571,
-      "position": 10.714285714285714
+      "impressions": 29,
+      "ctr": 0.034482758620689655,
+      "position": 10.724137931034482
     },
     {
       "keys": [
@@ -4004,9 +4004,9 @@
         "lizzie mcguire phone case"
       ],
       "clicks": 1,
-      "impressions": 207,
-      "ctr": 0.004830917874396135,
-      "position": 10.458937198067632
+      "impressions": 208,
+      "ctr": 0.004807692307692308,
+      "position": 10.461538461538462
     },
     {
       "keys": [
@@ -4103,9 +4103,9 @@
         "tarzan musical magnet"
       ],
       "clicks": 1,
-      "impressions": 36,
-      "ctr": 0.027777777777777776,
-      "position": 7.361111111111111
+      "impressions": 37,
+      "ctr": 0.02702702702702703,
+      "position": 7.351351351351352
     },
     {
       "keys": [
@@ -4361,12 +4361,30 @@
     },
     {
       "keys": [
+        "a cinderella story jersey"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 5.5
+    },
+    {
+      "keys": [
         "a cinderella story merch"
       ],
       "clicks": 0,
       "impressions": 2,
       "ctr": 0,
       "position": 4.5
+    },
+    {
+      "keys": [
+        "a cinderella story sam outfits"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 10
     },
     {
       "keys": [
@@ -4430,6 +4448,15 @@
       "impressions": 1,
       "ctr": 0,
       "position": 11
+    },
+    {
+      "keys": [
+        "air brush t shirts"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 9.5
     },
     {
       "keys": [
@@ -5021,9 +5048,9 @@
         "booey bag"
       ],
       "clicks": 0,
-      "impressions": 5,
+      "impressions": 3,
       "ctr": 0,
-      "position": 4.8
+      "position": 4.333333333333334
     },
     {
       "keys": [
@@ -5363,9 +5390,9 @@
         "cadet kelly hat"
       ],
       "clicks": 0,
-      "impressions": 39,
+      "impressions": 41,
       "ctr": 0,
-      "position": 4.487179487179487
+      "position": 4.414634146341463
     },
     {
       "keys": [
@@ -5471,9 +5498,9 @@
         "camp rock shirt"
       ],
       "clicks": 0,
-      "impressions": 7,
+      "impressions": 8,
       "ctr": 0,
-      "position": 5.714285714285714
+      "position": 6.375
     },
     {
       "keys": [
@@ -5750,9 +5777,9 @@
         "celebrity luggage tags"
       ],
       "clicks": 0,
-      "impressions": 6,
+      "impressions": 5,
       "ctr": 0,
-      "position": 27.5
+      "position": 27
     },
     {
       "keys": [
@@ -5885,9 +5912,9 @@
         "cher candle"
       ],
       "clicks": 0,
-      "impressions": 6,
+      "impressions": 5,
       "ctr": 0,
-      "position": 24.5
+      "position": 20.6
     },
     {
       "keys": [
@@ -5948,9 +5975,9 @@
         "cinderella story jersey"
       ],
       "clicks": 0,
-      "impressions": 24,
+      "impressions": 26,
       "ctr": 0,
-      "position": 4.083333333333334
+      "position": 4.153846153846153
     },
     {
       "keys": [
@@ -5987,15 +6014,6 @@
       "impressions": 1,
       "ctr": 0,
       "position": 2
-    },
-    {
-      "keys": [
-        "cody starbucks"
-      ],
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 12
     },
     {
       "keys": [
@@ -6695,9 +6713,9 @@
         "disney channel merch"
       ],
       "clicks": 0,
-      "impressions": 12,
+      "impressions": 13,
       "ctr": 0,
-      "position": 7.916666666666667
+      "position": 7.923076923076923
     },
     {
       "keys": [
@@ -7082,9 +7100,9 @@
         "disney original channel merch that's so raven"
       ],
       "clicks": 0,
-      "impressions": 160,
+      "impressions": 161,
       "ctr": 0,
-      "position": 9.03125
+      "position": 9.049689440993788
     },
     {
       "keys": [
@@ -7244,13 +7262,22 @@
         "dolly parton shirt"
       ],
       "clicks": 0,
-      "impressions": 2,
+      "impressions": 3,
       "ctr": 0,
-      "position": 15.5
+      "position": 14.333333333333334
     },
     {
       "keys": [
         "dolly parton shirts"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 11
+    },
+    {
+      "keys": [
+        "dolly shirt"
       ],
       "clicks": 0,
       "impressions": 1,
@@ -7424,9 +7451,9 @@
         "emperor's new groove musical"
       ],
       "clicks": 0,
-      "impressions": 17,
+      "impressions": 18,
       "ctr": 0,
-      "position": 11.529411764705882
+      "position": 11.444444444444445
     },
     {
       "keys": [
@@ -8378,9 +8405,9 @@
         "hannah montana tahirt"
       ],
       "clicks": 0,
-      "impressions": 1,
+      "impressions": 2,
       "ctr": 0,
-      "position": 8
+      "position": 10
     },
     {
       "keys": [
@@ -9062,9 +9089,9 @@
         "hilary duff christmas ornament"
       ],
       "clicks": 0,
-      "impressions": 1,
+      "impressions": 2,
       "ctr": 0,
-      "position": 4
+      "position": 5
     },
     {
       "keys": [
@@ -9476,9 +9503,9 @@
         "hilary duff ornament"
       ],
       "clicks": 0,
-      "impressions": 15,
+      "impressions": 19,
       "ctr": 0,
-      "position": 3.066666666666667
+      "position": 3.0526315789473686
     },
     {
       "keys": [
@@ -9524,6 +9551,15 @@
       "impressions": 10,
       "ctr": 0,
       "position": 9.1
+    },
+    {
+      "keys": [
+        "hilary duff see through shirt"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 2
     },
     {
       "keys": [
@@ -9584,9 +9620,9 @@
         "hilary duff star dress"
       ],
       "clicks": 0,
-      "impressions": 1,
+      "impressions": 2,
       "ctr": 0,
-      "position": 11
+      "position": 10.5
     },
     {
       "keys": [
@@ -9782,9 +9818,9 @@
         "hilary duff vintage shirt"
       ],
       "clicks": 0,
-      "impressions": 10,
+      "impressions": 11,
       "ctr": 0,
-      "position": 15.5
+      "position": 14.636363636363637
     },
     {
       "keys": [
@@ -10961,9 +10997,9 @@
         "lizzie mcguire glasses"
       ],
       "clicks": 0,
-      "impressions": 158,
+      "impressions": 157,
       "ctr": 0,
-      "position": 7.734177215189874
+      "position": 7.713375796178344
     },
     {
       "keys": [
@@ -11015,9 +11051,9 @@
         "lizzie mcguire movie shirt"
       ],
       "clicks": 0,
-      "impressions": 2,
+      "impressions": 3,
       "ctr": 0,
-      "position": 4.5
+      "position": 6
     },
     {
       "keys": [
@@ -11078,9 +11114,9 @@
         "lizzie mcguire phone"
       ],
       "clicks": 0,
-      "impressions": 6,
+      "impressions": 8,
       "ctr": 0,
-      "position": 19.666666666666668
+      "position": 17.375
     },
     {
       "keys": [
@@ -11186,9 +11222,9 @@
         "lizzie mcguire tattoo"
       ],
       "clicks": 0,
-      "impressions": 107,
+      "impressions": 110,
       "ctr": 0,
-      "position": 9.08411214953271
+      "position": 9.036363636363637
     },
     {
       "keys": [
@@ -11591,9 +11627,9 @@
         "lucky me tour tshirt"
       ],
       "clicks": 0,
-      "impressions": 4,
+      "impressions": 5,
       "ctr": 0,
-      "position": 11.25
+      "position": 11.4
     },
     {
       "keys": [
@@ -12134,15 +12170,6 @@
       "impressions": 2,
       "ctr": 0,
       "position": 20
-    },
-    {
-      "keys": [
-        "nightmare before christmas tote bag"
-      ],
-      "clicks": 0,
-      "impressions": 2,
-      "ctr": 0,
-      "position": 69.5
     },
     {
       "keys": [
@@ -12884,12 +12911,21 @@
     },
     {
       "keys": [
-        "sam montgomery cinderella story outfits"
+        "sam cinderella story outfits"
       ],
       "clicks": 0,
       "impressions": 1,
       "ctr": 0,
       "position": 5
+    },
+    {
+      "keys": [
+        "sam montgomery cinderella story outfits"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 7
     },
     {
       "keys": [
@@ -13013,9 +13049,9 @@
         "sharpay license plate"
       ],
       "clicks": 0,
-      "impressions": 193,
+      "impressions": 194,
       "ctr": 0,
-      "position": 7.575129533678757
+      "position": 7.582474226804123
     },
     {
       "keys": [
@@ -13043,6 +13079,15 @@
       "impressions": 1,
       "ctr": 0,
       "position": 5
+    },
+    {
+      "keys": [
+        "show me images"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 8
     },
     {
       "keys": [
@@ -14657,6 +14702,15 @@
     },
     {
       "keys": [
+        "where can i get one"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 2
+    },
+    {
+      "keys": [
         "where do you buy them?"
       ],
       "clicks": 0,
@@ -14976,64 +15030,64 @@
       "keys": [
         "https://www.twocraftygays.com/"
       ],
-      "clicks": 824,
-      "impressions": 18733,
-      "ctr": 0.0439865478033417,
-      "position": 6.720546628943575
+      "clicks": 827,
+      "impressions": 18772,
+      "ctr": 0.04405497549541871,
+      "position": 6.72283187726401
     },
     {
       "keys": [
         "https://www.twocraftygays.com/product-page/britney-spears-musical-magnet"
       ],
       "clicks": 123,
-      "impressions": 950,
-      "ctr": 0.12947368421052632,
-      "position": 5.172631578947368
+      "impressions": 951,
+      "ctr": 0.12933753943217666,
+      "position": 5.169295478443743
     },
     {
       "keys": [
         "https://www.twocraftygays.com/product-page/backstreet-boys-musical-magnet-backstreet-s-back"
       ],
-      "clicks": 121,
-      "impressions": 1854,
-      "ctr": 0.06526429341963323,
-      "position": 6.809600862998921
+      "clicks": 122,
+      "impressions": 1857,
+      "ctr": 0.06569736133548734,
+      "position": 6.805061927840603
     },
     {
       "keys": [
         "https://www.twocraftygays.com/product-page/backstreet-boys-musical-magnet"
       ],
       "clicks": 118,
-      "impressions": 1476,
-      "ctr": 0.07994579945799458,
-      "position": 6.880081300813008
+      "impressions": 1485,
+      "ctr": 0.07946127946127945,
+      "position": 6.874074074074074
     },
     {
       "keys": [
         "https://www.twocraftygays.com/product-page/backstreet-boys-musical-magnet-black-blue"
       ],
       "clicks": 64,
-      "impressions": 1626,
-      "ctr": 0.03936039360393604,
-      "position": 7.553505535055351
+      "impressions": 1627,
+      "ctr": 0.03933620159803319,
+      "position": 7.55439459127228
     },
     {
       "keys": [
         "https://www.twocraftygays.com/product-page/backstreet-boys-temporary-tattoos"
       ],
       "clicks": 64,
-      "impressions": 651,
-      "ctr": 0.09831029185867896,
-      "position": 5.1658986175115205
+      "impressions": 654,
+      "ctr": 0.09785932721712538,
+      "position": 5.178899082568807
     },
     {
       "keys": [
         "https://www.twocraftygays.com/category/hd-inspired"
       ],
       "clicks": 38,
-      "impressions": 534,
-      "ctr": 0.07116104868913857,
-      "position": 3.0692883895131087
+      "impressions": 536,
+      "ctr": 0.0708955223880597,
+      "position": 3.0652985074626864
     },
     {
       "keys": [
@@ -15058,9 +15112,9 @@
         "https://www.twocraftygays.com/product-page/lizzie-mcguire-temporary-tattoos"
       ],
       "clicks": 14,
-      "impressions": 351,
-      "ctr": 0.039886039886039885,
-      "position": 6.162393162393163
+      "impressions": 356,
+      "ctr": 0.03932584269662921,
+      "position": 6.157303370786517
     },
     {
       "keys": [
@@ -15085,9 +15139,9 @@
         "https://www.twocraftygays.com/category/shirts"
       ],
       "clicks": 10,
-      "impressions": 977,
-      "ctr": 0.01023541453428864,
-      "position": 2.4165813715455475
+      "impressions": 979,
+      "ctr": 0.010214504596527068,
+      "position": 2.420837589376915
     },
     {
       "keys": [
@@ -15139,9 +15193,9 @@
         "https://www.twocraftygays.com/product-page/lizzie-mcguire-iphone-case"
       ],
       "clicks": 9,
-      "impressions": 390,
-      "ctr": 0.023076923076923078,
-      "position": 10.766666666666667
+      "impressions": 393,
+      "ctr": 0.022900763358778626,
+      "position": 10.76590330788804
     },
     {
       "keys": [
@@ -15157,9 +15211,9 @@
         "https://www.twocraftygays.com/category/pop-divas"
       ],
       "clicks": 8,
-      "impressions": 568,
-      "ctr": 0.014084507042253521,
-      "position": 3.9242957746478875
+      "impressions": 569,
+      "ctr": 0.014059753954305799,
+      "position": 3.929701230228471
     },
     {
       "keys": [
@@ -15184,9 +15238,9 @@
         "https://www.twocraftygays.com/product-page/camp-rock-2-musical-magnet"
       ],
       "clicks": 7,
-      "impressions": 35,
-      "ctr": 0.2,
-      "position": 4.6
+      "impressions": 36,
+      "ctr": 0.19444444444444445,
+      "position": 4.527777777777778
     },
     {
       "keys": [
@@ -15310,9 +15364,9 @@
         "https://www.twocraftygays.com/category/bookmarks"
       ],
       "clicks": 4,
-      "impressions": 182,
-      "ctr": 0.02197802197802198,
-      "position": 7.324175824175824
+      "impressions": 183,
+      "ctr": 0.02185792349726776,
+      "position": 7.316939890710382
     },
     {
       "keys": [
@@ -15328,9 +15382,9 @@
         "https://www.twocraftygays.com/product-page/britney-spears-temporary-tattoos"
       ],
       "clicks": 4,
-      "impressions": 198,
-      "ctr": 0.020202020202020204,
-      "position": 6.454545454545454
+      "impressions": 203,
+      "ctr": 0.019704433497536946,
+      "position": 6.4088669950738915
     },
     {
       "keys": [
@@ -15445,9 +15499,9 @@
         "https://www.twocraftygays.com/product-page/tarzan-musical-magnet"
       ],
       "clicks": 4,
-      "impressions": 146,
-      "ctr": 0.0273972602739726,
-      "position": 7.493150684931507
+      "impressions": 147,
+      "ctr": 0.027210884353741496,
+      "position": 7.489795918367347
     },
     {
       "keys": [
@@ -15517,9 +15571,9 @@
         "https://www.twocraftygays.com/product-page/cadet-kelly-stainless-steel-dog-tag-necklace"
       ],
       "clicks": 3,
-      "impressions": 47,
-      "ctr": 0.06382978723404255,
-      "position": 3.5531914893617023
+      "impressions": 49,
+      "ctr": 0.061224489795918366,
+      "position": 3.489795918367347
     },
     {
       "keys": [
@@ -15589,9 +15643,9 @@
         "https://www.twocraftygays.com/product-page/high-school-musical-license-plate-frame-sharpay"
       ],
       "clicks": 3,
-      "impressions": 540,
-      "ctr": 0.005555555555555556,
-      "position": 7.887037037037037
+      "impressions": 542,
+      "ctr": 0.005535055350553505,
+      "position": 7.887453874538745
     },
     {
       "keys": [
@@ -15679,9 +15733,9 @@
         "https://www.twocraftygays.com/category/car-accessories"
       ],
       "clicks": 2,
-      "impressions": 92,
-      "ctr": 0.021739130434782608,
-      "position": 7.239130434782608
+      "impressions": 93,
+      "ctr": 0.021505376344086023,
+      "position": 7.258064516129032
     },
     {
       "keys": [
@@ -15733,9 +15787,9 @@
         "https://www.twocraftygays.com/product-page/beauty-the-beast-musical-magnet"
       ],
       "clicks": 2,
-      "impressions": 130,
-      "ctr": 0.015384615384615385,
-      "position": 7.861538461538461
+      "impressions": 131,
+      "ctr": 0.015267175572519083,
+      "position": 7.8396946564885495
     },
     {
       "keys": [
@@ -15769,9 +15823,9 @@
         "https://www.twocraftygays.com/product-page/casper-meets-wendy-sweatshirt-the-good-witch"
       ],
       "clicks": 2,
-      "impressions": 28,
-      "ctr": 0.07142857142857142,
-      "position": 8.857142857142858
+      "impressions": 29,
+      "ctr": 0.06896551724137931,
+      "position": 8.793103448275861
     },
     {
       "keys": [
@@ -15850,9 +15904,9 @@
         "https://www.twocraftygays.com/product-page/hannah-montana-license-plate-frame"
       ],
       "clicks": 2,
-      "impressions": 54,
-      "ctr": 0.037037037037037035,
-      "position": 8.833333333333332
+      "impressions": 55,
+      "ctr": 0.03636363636363636,
+      "position": 8.854545454545455
     },
     {
       "keys": [
@@ -15904,9 +15958,9 @@
         "https://www.twocraftygays.com/product-page/high-school-musical-drinking-glass"
       ],
       "clicks": 2,
-      "impressions": 151,
-      "ctr": 0.013245033112582781,
-      "position": 7.814569536423841
+      "impressions": 153,
+      "ctr": 0.013071895424836602,
+      "position": 7.784313725490196
     },
     {
       "keys": [
@@ -15976,9 +16030,9 @@
         "https://www.twocraftygays.com/product-page/jonas-brothers-cd-air-freshener"
       ],
       "clicks": 2,
-      "impressions": 361,
-      "ctr": 0.00554016620498615,
-      "position": 9.268698060941828
+      "impressions": 360,
+      "ctr": 0.005555555555555556,
+      "position": 9.258333333333333
     },
     {
       "keys": [
@@ -16138,9 +16192,9 @@
         "https://twocraftygays.com/products/hannah-montana-iphone-case"
       ],
       "clicks": 1,
-      "impressions": 40,
-      "ctr": 0.025,
-      "position": 8.925
+      "impressions": 39,
+      "ctr": 0.02564102564102564,
+      "position": 8.923076923076923
     },
     {
       "keys": [
@@ -16408,9 +16462,9 @@
         "https://www.twocraftygays.com/category/featured-cruise-tumblers"
       ],
       "clicks": 1,
-      "impressions": 216,
-      "ctr": 0.004629629629629629,
-      "position": 17.03240740740741
+      "impressions": 215,
+      "ctr": 0.004651162790697674,
+      "position": 17.065116279069766
     },
     {
       "keys": [
@@ -16516,9 +16570,9 @@
         "https://www.twocraftygays.com/product-page/avril-lavigne-hit-clip-keychain-complicated"
       ],
       "clicks": 1,
-      "impressions": 41,
-      "ctr": 0.024390243902439025,
-      "position": 8.804878048780488
+      "impressions": 43,
+      "ctr": 0.023255813953488372,
+      "position": 8.720930232558139
     },
     {
       "keys": [
@@ -16624,9 +16678,9 @@
         "https://www.twocraftygays.com/product-page/britney-spears-commemorative-vip-pass"
       ],
       "clicks": 1,
-      "impressions": 52,
-      "ctr": 0.019230769230769232,
-      "position": 8.23076923076923
+      "impressions": 54,
+      "ctr": 0.018518518518518517,
+      "position": 7.962962962962963
     },
     {
       "keys": [
@@ -16660,9 +16714,9 @@
         "https://www.twocraftygays.com/product-page/cadet-kelly-camouflage-shirt"
       ],
       "clicks": 1,
-      "impressions": 45,
-      "ctr": 0.022222222222222223,
-      "position": 7.6
+      "impressions": 47,
+      "ctr": 0.02127659574468085,
+      "position": 7.468085106382978
     },
     {
       "keys": [
@@ -16678,9 +16732,9 @@
         "https://www.twocraftygays.com/product-page/camp-rock-cd-ornament"
       ],
       "clicks": 1,
-      "impressions": 8,
-      "ctr": 0.125,
-      "position": 7.125
+      "impressions": 9,
+      "ctr": 0.1111111111111111,
+      "position": 7.333333333333333
     },
     {
       "keys": [
@@ -17146,9 +17200,9 @@
         "https://www.twocraftygays.com/product-page/hannah-montana-commemorative-vip-pass"
       ],
       "clicks": 1,
-      "impressions": 89,
-      "ctr": 0.011235955056179775,
-      "position": 6.910112359550562
+      "impressions": 93,
+      "ctr": 0.010752688172043012,
+      "position": 6.78494623655914
     },
     {
       "keys": [
@@ -17191,9 +17245,9 @@
         "https://www.twocraftygays.com/product-page/hd-inspired-cinderella-story-baseball-jersey"
       ],
       "clicks": 1,
-      "impressions": 106,
-      "ctr": 0.009433962264150943,
-      "position": 4.60377358490566
+      "impressions": 115,
+      "ctr": 0.008695652173913044,
+      "position": 4.7043478260869565
     },
     {
       "keys": [
@@ -17206,12 +17260,21 @@
     },
     {
       "keys": [
+        "https://www.twocraftygays.com/product-page/hd-inspired-lucky-me-tour-msg"
+      ],
+      "clicks": 1,
+      "impressions": 22,
+      "ctr": 0.045454545454545456,
+      "position": 28.545454545454547
+    },
+    {
+      "keys": [
         "https://www.twocraftygays.com/product-page/hd-inspired-lucky-me-tour-ornament-2027"
       ],
       "clicks": 1,
-      "impressions": 18,
-      "ctr": 0.05555555555555555,
-      "position": 3.111111111111111
+      "impressions": 19,
+      "ctr": 0.05263157894736842,
+      "position": 3.210526315789474
     },
     {
       "keys": [
@@ -17506,9 +17569,9 @@
         "https://www.twocraftygays.com/product-page/little-mermaid-musical-magnet"
       ],
       "clicks": 1,
-      "impressions": 17,
-      "ctr": 0.058823529411764705,
-      "position": 4.705882352941177
+      "impressions": 18,
+      "ctr": 0.05555555555555555,
+      "position": 4.722222222222222
     },
     {
       "keys": [
@@ -17542,9 +17605,9 @@
         "https://www.twocraftygays.com/product-page/lizzie-mcguire-cartoon-drinking-glass"
       ],
       "clicks": 1,
-      "impressions": 314,
-      "ctr": 0.0031847133757961785,
-      "position": 7.802547770700637
+      "impressions": 315,
+      "ctr": 0.0031746031746031746,
+      "position": 7.7936507936507935
     },
     {
       "keys": [
@@ -17623,9 +17686,9 @@
         "https://www.twocraftygays.com/product-page/lizzie-mcguire-starbucks-drinking-glass"
       ],
       "clicks": 1,
-      "impressions": 14,
-      "ctr": 0.07142857142857142,
-      "position": 9.285714285714286
+      "impressions": 13,
+      "ctr": 0.07692307692307693,
+      "position": 9.153846153846153
     },
     {
       "keys": [
@@ -17722,9 +17785,9 @@
         "https://www.twocraftygays.com/product-page/mulan-musical-magnet"
       ],
       "clicks": 1,
-      "impressions": 13,
-      "ctr": 0.07692307692307693,
-      "position": 8.461538461538462
+      "impressions": 14,
+      "ctr": 0.07142857142857142,
+      "position": 8.714285714285715
     },
     {
       "keys": [
@@ -18154,9 +18217,9 @@
         "https://twocraftygays.com/"
       ],
       "clicks": 0,
-      "impressions": 324,
+      "impressions": 327,
       "ctr": 0,
-      "position": 5.9753086419753085
+      "position": 6
     },
     {
       "keys": [
@@ -18619,15 +18682,6 @@
     },
     {
       "keys": [
-        "https://twocraftygays.com/products/bach-bash-personalized-luggage-tag-two-grooms"
-      ],
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 14
-    },
-    {
-      "keys": [
         "https://twocraftygays.com/products/bach-bash-personalized-tumbler-person-of-honor"
       ],
       "clicks": 0,
@@ -18694,9 +18748,9 @@
         "https://twocraftygays.com/products/bluey-personalized-halloween-tote-bag-booey"
       ],
       "clicks": 0,
-      "impressions": 11,
+      "impressions": 7,
       "ctr": 0,
-      "position": 6.818181818181818
+      "position": 8
     },
     {
       "keys": [
@@ -19360,9 +19414,9 @@
         "https://twocraftygays.com/products/disney-cruise-line-personalized-luggage-tag-goofy?variant=54023313391784&country=US&currency=USD"
       ],
       "clicks": 0,
-      "impressions": 3,
+      "impressions": 1,
       "ctr": 0,
-      "position": 9.333333333333334
+      "position": 6
     },
     {
       "keys": [
@@ -19552,15 +19606,6 @@
       "impressions": 2,
       "ctr": 0,
       "position": 8.5
-    },
-    {
-      "keys": [
-        "https://twocraftygays.com/products/disney-epcot-can-cooler-colors-of-the-wine"
-      ],
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 10
     },
     {
       "keys": [
@@ -19774,9 +19819,9 @@
         "https://twocraftygays.com/products/disney-personalized-halloween-tote-bag-nightmare-before-christmas"
       ],
       "clicks": 0,
-      "impressions": 6,
+      "impressions": 4,
       "ctr": 0,
-      "position": 30.666666666666668
+      "position": 11.25
     },
     {
       "keys": [
@@ -20359,18 +20404,18 @@
         "https://twocraftygays.com/products/msc-cruise-personalized-iphone-case"
       ],
       "clicks": 0,
-      "impressions": 6,
+      "impressions": 3,
       "ctr": 0,
-      "position": 5.333333333333333
+      "position": 7.333333333333333
     },
     {
       "keys": [
         "https://twocraftygays.com/products/msc-cruise-personalized-iphone-case-pride"
       ],
       "clicks": 0,
-      "impressions": 7,
+      "impressions": 4,
       "ctr": 0,
-      "position": 8
+      "position": 7.75
     },
     {
       "keys": [
@@ -20602,9 +20647,9 @@
         "https://twocraftygays.com/products/princess-diaries-iphone-case"
       ],
       "clicks": 0,
-      "impressions": 3,
+      "impressions": 2,
       "ctr": 0,
-      "position": 10.666666666666666
+      "position": 10.5
     },
     {
       "keys": [
@@ -20944,9 +20989,9 @@
         "https://twocraftygays.com/products/suite-life-of-zack-cody-starbucks-tumbler-cup"
       ],
       "clicks": 0,
-      "impressions": 3,
+      "impressions": 2,
       "ctr": 0,
-      "position": 8.666666666666668
+      "position": 7
     },
     {
       "keys": [
@@ -23185,9 +23230,9 @@
         "https://www.twocraftygays.com/product-page/a-cinderella-story-shirt-sam-montgomery"
       ],
       "clicks": 0,
-      "impressions": 75,
+      "impressions": 76,
       "ctr": 0,
-      "position": 6.56
+      "position": 6.5131578947368425
     },
     {
       "keys": [
@@ -23248,9 +23293,9 @@
         "https://www.twocraftygays.com/product-page/aaliyah-prayer-candle"
       ],
       "clicks": 0,
-      "impressions": 37,
+      "impressions": 38,
       "ctr": 0,
-      "position": 6.945945945945946
+      "position": 7.052631578947368
     },
     {
       "keys": [
@@ -23896,9 +23941,9 @@
         "https://www.twocraftygays.com/product-page/britney-spears-crossroads-shirt"
       ],
       "clicks": 0,
-      "impressions": 21,
+      "impressions": 22,
       "ctr": 0,
-      "position": 6
+      "position": 5.7727272727272725
     },
     {
       "keys": [
@@ -24094,9 +24139,9 @@
         "https://www.twocraftygays.com/product-page/britney-spears-personalized-tumbler-cup-oops-i-did-it-again"
       ],
       "clicks": 0,
-      "impressions": 76,
+      "impressions": 79,
       "ctr": 0,
-      "position": 8.421052631578949
+      "position": 8.240506329113924
     },
     {
       "keys": [
@@ -24202,7 +24247,7 @@
         "https://www.twocraftygays.com/product-page/britney-spears-vegas-shirt"
       ],
       "clicks": 0,
-      "impressions": 2,
+      "impressions": 3,
       "ctr": 0,
       "position": 5
     },
@@ -24211,9 +24256,9 @@
         "https://www.twocraftygays.com/product-page/cadet-kelly-hat"
       ],
       "clicks": 0,
-      "impressions": 113,
+      "impressions": 115,
       "ctr": 0,
-      "position": 4.690265486725664
+      "position": 4.660869565217391
     },
     {
       "keys": [
@@ -24454,18 +24499,18 @@
         "https://www.twocraftygays.com/product-page/casper-meets-wendy-shirt"
       ],
       "clicks": 0,
-      "impressions": 27,
+      "impressions": 29,
       "ctr": 0,
-      "position": 5.555555555555555
+      "position": 5.344827586206897
     },
     {
       "keys": [
         "https://www.twocraftygays.com/product-page/casper-meets-wendy-shirt-vhs"
       ],
       "clicks": 0,
-      "impressions": 19,
+      "impressions": 21,
       "ctr": 0,
-      "position": 6.368421052631579
+      "position": 9.571428571428571
     },
     {
       "keys": [
@@ -24481,9 +24526,9 @@
         "https://www.twocraftygays.com/product-page/casper-meets-wendy-sweatshirt"
       ],
       "clicks": 0,
-      "impressions": 9,
+      "impressions": 11,
       "ctr": 0,
-      "position": 8.444444444444445
+      "position": 8.09090909090909
     },
     {
       "keys": [
@@ -24499,9 +24544,9 @@
         "https://www.twocraftygays.com/product-page/celebrity-cruises-personalized-luggage-tag"
       ],
       "clicks": 0,
-      "impressions": 16,
+      "impressions": 15,
       "ctr": 0,
-      "position": 24.5625
+      "position": 24.2
     },
     {
       "keys": [
@@ -24625,9 +24670,9 @@
         "https://www.twocraftygays.com/product-page/cheetah-girls-iphone-case"
       ],
       "clicks": 0,
-      "impressions": 65,
+      "impressions": 66,
       "ctr": 0,
-      "position": 9.76923076923077
+      "position": 9.787878787878787
     },
     {
       "keys": [
@@ -24643,9 +24688,9 @@
         "https://www.twocraftygays.com/product-page/cheetah-girls-license-plate-frame"
       ],
       "clicks": 0,
-      "impressions": 5,
+      "impressions": 6,
       "ctr": 0,
-      "position": 15.4
+      "position": 13.5
     },
     {
       "keys": [
@@ -24679,9 +24724,9 @@
         "https://www.twocraftygays.com/product-page/cheetah-girls-starbucks-mug"
       ],
       "clicks": 0,
-      "impressions": 67,
+      "impressions": 66,
       "ctr": 0,
-      "position": 9.194029850746269
+      "position": 9.166666666666666
     },
     {
       "keys": [
@@ -24706,9 +24751,9 @@
         "https://www.twocraftygays.com/product-page/cher-prayer-candle"
       ],
       "clicks": 0,
-      "impressions": 2,
+      "impressions": 1,
       "ctr": 0,
-      "position": 48
+      "position": 52
     },
     {
       "keys": [
@@ -24832,9 +24877,9 @@
         "https://www.twocraftygays.com/product-page/copy-of-casper-meets-wendy-sweatshirt"
       ],
       "clicks": 0,
-      "impressions": 4,
+      "impressions": 5,
       "ctr": 0,
-      "position": 4.5
+      "position": 4.4
     },
     {
       "keys": [
@@ -25606,9 +25651,9 @@
         "https://www.twocraftygays.com/product-page/demi-lovato-prayer-candle"
       ],
       "clicks": 0,
-      "impressions": 13,
+      "impressions": 12,
       "ctr": 0,
-      "position": 9.153846153846153
+      "position": 9
     },
     {
       "keys": [
@@ -26101,9 +26146,9 @@
         "https://www.twocraftygays.com/product-page/disney-channel-nite-shirt"
       ],
       "clicks": 0,
-      "impressions": 17,
+      "impressions": 18,
       "ctr": 0,
-      "position": 8.941176470588236
+      "position": 8.5
     },
     {
       "keys": [
@@ -26137,9 +26182,9 @@
         "https://www.twocraftygays.com/product-page/disney-channel-throwback-plush-blanket-hannah-montana"
       ],
       "clicks": 0,
-      "impressions": 8,
+      "impressions": 10,
       "ctr": 0,
-      "position": 3.25
+      "position": 4.7
     },
     {
       "keys": [
@@ -26335,9 +26380,9 @@
         "https://www.twocraftygays.com/product-page/disney-cruise-line-personalized-christmas-luggage-tag-1"
       ],
       "clicks": 0,
-      "impressions": 3,
+      "impressions": 2,
       "ctr": 0,
-      "position": 10.333333333333334
+      "position": 11.5
     },
     {
       "keys": [
@@ -26461,9 +26506,9 @@
         "https://www.twocraftygays.com/product-page/disney-cruise-line-personalized-luggage-tag-chip-dale"
       ],
       "clicks": 0,
-      "impressions": 8,
+      "impressions": 7,
       "ctr": 0,
-      "position": 7.25
+      "position": 7
     },
     {
       "keys": [
@@ -26812,9 +26857,9 @@
         "https://www.twocraftygays.com/product-page/emperor-s-new-groove-musical-magnet"
       ],
       "clicks": 0,
-      "impressions": 68,
+      "impressions": 70,
       "ctr": 0,
-      "position": 11.691176470588236
+      "position": 11.657142857142857
     },
     {
       "keys": [
@@ -26830,9 +26875,9 @@
         "https://www.twocraftygays.com/product-page/epcot-can-cooler-ariel-under-the-influence"
       ],
       "clicks": 0,
-      "impressions": 8,
+      "impressions": 7,
       "ctr": 0,
-      "position": 7.125
+      "position": 7
     },
     {
       "keys": [
@@ -27151,6 +27196,15 @@
     },
     {
       "keys": [
+        "https://www.twocraftygays.com/product-page/halloweentown-spiral-notebook"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 1
+    },
+    {
+      "keys": [
         "https://www.twocraftygays.com/product-page/hannah-montana-2-cd-air-freshener"
       ],
       "clicks": 0,
@@ -27217,9 +27271,9 @@
         "https://www.twocraftygays.com/product-page/hannah-montana-20th-anniversary-ornament-shhh"
       ],
       "clicks": 0,
-      "impressions": 172,
+      "impressions": 173,
       "ctr": 0,
-      "position": 9.505813953488373
+      "position": 9.473988439306359
     },
     {
       "keys": [
@@ -27397,9 +27451,9 @@
         "https://www.twocraftygays.com/product-page/hannah-montana-car-decor-plate"
       ],
       "clicks": 0,
-      "impressions": 98,
+      "impressions": 100,
       "ctr": 0,
-      "position": 12.459183673469388
+      "position": 12.3
     },
     {
       "keys": [
@@ -28186,15 +28240,6 @@
     },
     {
       "keys": [
-        "https://www.twocraftygays.com/product-page/hd-inspired-lucky-me-tour-msg"
-      ],
-      "clicks": 0,
-      "impressions": 20,
-      "ctr": 0,
-      "position": 30.8
-    },
-    {
-      "keys": [
         "https://www.twocraftygays.com/product-page/hd-inspired-lucky-me-tour-msg-1"
       ],
       "clicks": 0,
@@ -28567,9 +28612,9 @@
         "https://www.twocraftygays.com/product-page/hd-made-me-gay-tank"
       ],
       "clicks": 0,
-      "impressions": 43,
+      "impressions": 45,
       "ctr": 0,
-      "position": 4.2558139534883725
+      "position": 4.288888888888889
     },
     {
       "keys": [
@@ -28765,9 +28810,9 @@
         "https://www.twocraftygays.com/product-page/high-school-musical-air-brush-style-shirt-troy-bolton"
       ],
       "clicks": 0,
-      "impressions": 20,
+      "impressions": 21,
       "ctr": 0,
-      "position": 6.8
+      "position": 6.666666666666667
     },
     {
       "keys": [
@@ -28846,9 +28891,9 @@
         "https://www.twocraftygays.com/product-page/high-school-musical-car-decor-plate-sharpay"
       ],
       "clicks": 0,
-      "impressions": 49,
+      "impressions": 51,
       "ctr": 0,
-      "position": 8.89795918367347
+      "position": 9.019607843137255
     },
     {
       "keys": [
@@ -29143,9 +29188,9 @@
         "https://www.twocraftygays.com/product-page/hilary-duff-christmas-stocking-holiday-things"
       ],
       "clicks": 0,
-      "impressions": 4,
+      "impressions": 5,
       "ctr": 0,
-      "position": 10
+      "position": 9
     },
     {
       "keys": [
@@ -29170,9 +29215,9 @@
         "https://www.twocraftygays.com/product-page/hilary-duff-cinderella-story-baseball-jersey"
       ],
       "clicks": 0,
-      "impressions": 6,
+      "impressions": 10,
       "ctr": 0,
-      "position": 8
+      "position": 7.3
     },
     {
       "keys": [
@@ -29248,6 +29293,15 @@
     },
     {
       "keys": [
+        "https://www.twocraftygays.com/product-page/hilary-duff-holiday-things-photo-shirt"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 8
+    },
+    {
+      "keys": [
         "https://www.twocraftygays.com/product-page/hilary-duff-holiday-things-retro-pop-shirt?utm_source=google&utm_medium=wix_google_feed&utm_campaign=freelistings"
       ],
       "clicks": 0,
@@ -29278,9 +29332,9 @@
         "https://www.twocraftygays.com/product-page/hilary-duff-luck-or-something-cd-ornament"
       ],
       "clicks": 0,
-      "impressions": 6,
+      "impressions": 10,
       "ctr": 0,
-      "position": 2.833333333333333
+      "position": 4
     },
     {
       "keys": [
@@ -29347,12 +29401,30 @@
     },
     {
       "keys": [
+        "https://www.twocraftygays.com/product-page/hilary-duff-lucky-me-tour-ornament-2026"
+      ],
+      "clicks": 0,
+      "impressions": 6,
+      "ctr": 0,
+      "position": 7
+    },
+    {
+      "keys": [
         "https://www.twocraftygays.com/product-page/hilary-duff-lucky-me-tour-ornament-2027"
       ],
       "clicks": 0,
-      "impressions": 7,
+      "impressions": 13,
       "ctr": 0,
-      "position": 4
+      "position": 3.923076923076923
+    },
+    {
+      "keys": [
+        "https://www.twocraftygays.com/product-page/hilary-duff-lucky-me-tour-setlist-tote-bag"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 1
     },
     {
       "keys": [
@@ -29398,6 +29470,15 @@
       "impressions": 4,
       "ctr": 0,
       "position": 2.75
+    },
+    {
+      "keys": [
+        "https://www.twocraftygays.com/product-page/hilary-duff-lucky-me-tour-shirt-eras?utm_source=google&utm_medium=wix_google_feed&utm_campaign=freelistings"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 3
     },
     {
       "keys": [
@@ -29584,18 +29665,18 @@
         "https://www.twocraftygays.com/product-page/hilary-duff-star-dress-shirt"
       ],
       "clicks": 0,
-      "impressions": 2,
+      "impressions": 3,
       "ctr": 0,
-      "position": 18
+      "position": 15.666666666666666
     },
     {
       "keys": [
         "https://www.twocraftygays.com/product-page/hilary-duff-star-dress-sweatshirt"
       ],
       "clicks": 0,
-      "impressions": 12,
+      "impressions": 14,
       "ctr": 0,
-      "position": 8
+      "position": 7.642857142857143
     },
     {
       "keys": [
@@ -29764,9 +29845,9 @@
         "https://www.twocraftygays.com/product-page/jonas-brothers-holographic-magnetic-bookmark"
       ],
       "clicks": 0,
-      "impressions": 12,
+      "impressions": 13,
       "ctr": 0,
-      "position": 5.25
+      "position": 5.153846153846154
     },
     {
       "keys": [
@@ -29944,9 +30025,9 @@
         "https://www.twocraftygays.com/product-page/kimpossible-starbucks-drinking-glass-troy"
       ],
       "clicks": 0,
-      "impressions": 5,
+      "impressions": 7,
       "ctr": 0,
-      "position": 6.8
+      "position": 5.571428571428571
     },
     {
       "keys": [
@@ -30133,9 +30214,9 @@
         "https://www.twocraftygays.com/product-page/lizze-mcguire-movie-shirt-soundtrack"
       ],
       "clicks": 0,
-      "impressions": 52,
+      "impressions": 53,
       "ctr": 0,
-      "position": 5.673076923076923
+      "position": 5.584905660377358
     },
     {
       "keys": [
@@ -30160,9 +30241,9 @@
         "https://www.twocraftygays.com/product-page/lizzie-mcguire-40-oz-quencher-tumbler"
       ],
       "clicks": 0,
-      "impressions": 5,
+      "impressions": 4,
       "ctr": 0,
-      "position": 11.2
+      "position": 11.5
     },
     {
       "keys": [
@@ -30187,9 +30268,9 @@
         "https://www.twocraftygays.com/product-page/lizzie-mcguire-baby-on-board-sign"
       ],
       "clicks": 0,
-      "impressions": 3,
+      "impressions": 4,
       "ctr": 0,
-      "position": 9.666666666666666
+      "position": 7.5
     },
     {
       "keys": [
@@ -30394,9 +30475,9 @@
         "https://www.twocraftygays.com/product-page/lizzie-mcguire-halloween-shirt-night-of-day-of-the-dead"
       ],
       "clicks": 0,
-      "impressions": 15,
+      "impressions": 16,
       "ctr": 0,
-      "position": 14.333333333333334
+      "position": 14.125
     },
     {
       "keys": [
@@ -30520,9 +30601,27 @@
         "https://www.twocraftygays.com/product-page/lizzie-mcguire-movie-shirt-lizzie-paolo"
       ],
       "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 7
+    },
+    {
+      "keys": [
+        "https://www.twocraftygays.com/product-page/lizzie-mcguire-movie-shirt-soundtrack"
+      ],
+      "clicks": 0,
       "impressions": 1,
       "ctr": 0,
-      "position": 13
+      "position": 9
+    },
+    {
+      "keys": [
+        "https://www.twocraftygays.com/product-page/lizzie-mcguire-movie-temporary-tattoos"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 5
     },
     {
       "keys": [
@@ -30844,7 +30943,7 @@
         "https://www.twocraftygays.com/product-page/michael-myers-from-halloween-personalized-tumbler-cup"
       ],
       "clicks": 0,
-      "impressions": 2,
+      "impressions": 1,
       "ctr": 0,
       "position": 7
     },
@@ -30934,9 +31033,9 @@
         "https://www.twocraftygays.com/product-page/miranda-priestly-from-the-devil-wears-prada-personalized-tumbler-cup"
       ],
       "clicks": 0,
-      "impressions": 2,
+      "impressions": 1,
       "ctr": 0,
-      "position": 7
+      "position": 6
     },
     {
       "keys": [
@@ -31069,9 +31168,9 @@
         "https://www.twocraftygays.com/product-page/nsync-christmas-stocking"
       ],
       "clicks": 0,
-      "impressions": 5,
+      "impressions": 6,
       "ctr": 0,
-      "position": 18.4
+      "position": 15.666666666666666
     },
     {
       "keys": [
@@ -31111,6 +31210,15 @@
     },
     {
       "keys": [
+        "https://www.twocraftygays.com/product-page/nsync-hit-clip-keychain-bye-bye-bye?utm_source=google&utm_medium=wix_google_feed&utm_campaign=freelistings"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 1
+    },
+    {
+      "keys": [
         "https://www.twocraftygays.com/product-page/nsync-hit-clip-keychain-celebrity"
       ],
       "clicks": 0,
@@ -31135,6 +31243,15 @@
       "impressions": 12,
       "ctr": 0,
       "position": 8.416666666666668
+    },
+    {
+      "keys": [
+        "https://www.twocraftygays.com/product-page/nsync-hit-clip-keychain-it-s-gonna-be-me?utm_source=google&utm_medium=wix_google_feed&utm_campaign=freelistings"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 1
     },
     {
       "keys": [
@@ -31717,9 +31834,9 @@
         "https://www.twocraftygays.com/product-page/princess-diaries-car-decor-plate-2"
       ],
       "clicks": 0,
-      "impressions": 45,
+      "impressions": 46,
       "ctr": 0,
-      "position": 8.533333333333333
+      "position": 8.391304347826086
     },
     {
       "keys": [
@@ -31753,9 +31870,18 @@
         "https://www.twocraftygays.com/product-page/princess-diaries-iphone-case"
       ],
       "clicks": 0,
-      "impressions": 20,
+      "impressions": 21,
       "ctr": 0,
-      "position": 10.1
+      "position": 9.952380952380953
+    },
+    {
+      "keys": [
+        "https://www.twocraftygays.com/product-page/princess-diaries-license-plate-frame"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 8
     },
     {
       "keys": [
@@ -32068,9 +32194,9 @@
         "https://www.twocraftygays.com/product-page/retro-disney-channel-shirt-that-s-so-raven"
       ],
       "clicks": 0,
-      "impressions": 9,
+      "impressions": 10,
       "ctr": 0,
-      "position": 17
+      "position": 16.5
     },
     {
       "keys": [
@@ -32140,9 +32266,9 @@
         "https://www.twocraftygays.com/product-page/retro-disney-channel-tote-bag-high-school-musical-sharpay-evans"
       ],
       "clicks": 0,
-      "impressions": 52,
+      "impressions": 53,
       "ctr": 0,
-      "position": 9.384615384615385
+      "position": 9.339622641509434
     },
     {
       "keys": [
@@ -32419,9 +32545,9 @@
         "https://www.twocraftygays.com/product-page/rupaul-s-drag-race-personalized-tumbler-cup"
       ],
       "clicks": 0,
-      "impressions": 8,
+      "impressions": 7,
       "ctr": 0,
-      "position": 7.875
+      "position": 7.714285714285714
     },
     {
       "keys": [
@@ -32869,9 +32995,9 @@
         "https://www.twocraftygays.com/product-page/tarzan-cd-ornament"
       ],
       "clicks": 0,
-      "impressions": 25,
+      "impressions": 27,
       "ctr": 0,
-      "position": 11.56
+      "position": 11.37037037037037
     },
     {
       "keys": [
@@ -33022,9 +33148,9 @@
         "https://www.twocraftygays.com/product-page/that-s-so-raven-tote-bag"
       ],
       "clicks": 0,
-      "impressions": 34,
+      "impressions": 35,
       "ctr": 0,
-      "position": 8.558823529411764
+      "position": 8.62857142857143
     },
     {
       "keys": [
@@ -33784,6 +33910,15 @@
     },
     {
       "keys": [
+        "https://www.twocraftygays.com/product-page/throwback-sonny-with-a-chance-cd-coaster-square"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 5
+    },
+    {
+      "keys": [
         "https://www.twocraftygays.com/product-page/toy-story-best-day-ever-40-oz-quencher-tumbler-green-alien"
       ],
       "clicks": 0,
@@ -34130,28 +34265,28 @@
       "keys": [
         "MOBILE"
       ],
-      "clicks": 1678,
-      "impressions": 40396,
-      "ctr": 0.041538766214476684,
-      "position": 7.068670165362907
+      "clicks": 1683,
+      "impressions": 40520,
+      "ctr": 0.041535044422507404,
+      "position": 7.061475814412636
     },
     {
       "keys": [
         "DESKTOP"
       ],
       "clicks": 315,
-      "impressions": 7205,
-      "ctr": 0.04371963913948647,
-      "position": 11.831367106176266
+      "impressions": 7219,
+      "ctr": 0.04363485247264164,
+      "position": 11.815902479567807
     },
     {
       "keys": [
         "TABLET"
       ],
       "clicks": 14,
-      "impressions": 957,
-      "ctr": 0.014629049111807733,
-      "position": 6.177638453500522
+      "impressions": 958,
+      "ctr": 0.014613778705636743,
+      "position": 6.177453027139875
     }
   ],
   "countries": [
@@ -34159,37 +34294,37 @@
       "keys": [
         "usa"
       ],
-      "clicks": 1544,
-      "impressions": 36589,
-      "ctr": 0.04219847495148815,
-      "position": 7.4995217141763915
+      "clicks": 1549,
+      "impressions": 36682,
+      "ctr": 0.042227795649092195,
+      "position": 7.487841448121695
     },
     {
       "keys": [
         "can"
       ],
       "clicks": 115,
-      "impressions": 3107,
-      "ctr": 0.03701319600901191,
-      "position": 8.316704216285807
+      "impressions": 3121,
+      "ctr": 0.036847164370394106,
+      "position": 8.320089714834989
     },
     {
       "keys": [
         "deu"
       ],
       "clicks": 91,
-      "impressions": 1247,
-      "ctr": 0.07297514033680834,
-      "position": 7.245388933440257
+      "impressions": 1250,
+      "ctr": 0.0728,
+      "position": 7.244
     },
     {
       "keys": [
         "gbr"
       ],
       "clicks": 45,
-      "impressions": 970,
-      "ctr": 0.04639175257731959,
-      "position": 8.72577319587629
+      "impressions": 974,
+      "ctr": 0.04620123203285421,
+      "position": 8.703285420944558
     },
     {
       "keys": [
@@ -34205,9 +34340,9 @@
         "aus"
       ],
       "clicks": 32,
-      "impressions": 3015,
-      "ctr": 0.010613598673300166,
-      "position": 8.729684908789388
+      "impressions": 3027,
+      "ctr": 0.010571522960026428,
+      "position": 8.725470763131813
     },
     {
       "keys": [
@@ -34223,27 +34358,27 @@
         "ita"
       ],
       "clicks": 13,
-      "impressions": 201,
-      "ctr": 0.06467661691542288,
-      "position": 7.278606965174129
+      "impressions": 202,
+      "ctr": 0.06435643564356436,
+      "position": 7.301980198019802
     },
     {
       "keys": [
         "mex"
       ],
       "clicks": 12,
-      "impressions": 192,
-      "ctr": 0.0625,
-      "position": 8.776041666666668
+      "impressions": 193,
+      "ctr": 0.06217616580310881,
+      "position": 8.740932642487046
     },
     {
       "keys": [
         "nld"
       ],
       "clicks": 12,
-      "impressions": 177,
-      "ctr": 0.06779661016949153,
-      "position": 7.163841807909605
+      "impressions": 182,
+      "ctr": 0.06593406593406594,
+      "position": 7.087912087912088
     },
     {
       "keys": [
@@ -34259,9 +34394,9 @@
         "esp"
       ],
       "clicks": 8,
-      "impressions": 143,
-      "ctr": 0.055944055944055944,
-      "position": 6.643356643356643
+      "impressions": 144,
+      "ctr": 0.05555555555555555,
+      "position": 6.645833333333333
     },
     {
       "keys": [
@@ -34430,9 +34565,9 @@
         "pol"
       ],
       "clicks": 2,
-      "impressions": 73,
-      "ctr": 0.0273972602739726,
-      "position": 7.315068493150685
+      "impressions": 74,
+      "ctr": 0.02702702702702703,
+      "position": 7.337837837837838
     },
     {
       "keys": [
@@ -34502,9 +34637,9 @@
         "ind"
       ],
       "clicks": 1,
-      "impressions": 369,
-      "ctr": 0.0027100271002710027,
-      "position": 11.257452574525745
+      "impressions": 372,
+      "ctr": 0.002688172043010753,
+      "position": 11.241935483870968
     },
     {
       "keys": [
@@ -34628,9 +34763,9 @@
         "alb"
       ],
       "clicks": 0,
-      "impressions": 5,
+      "impressions": 6,
       "ctr": 0,
-      "position": 18.2
+      "position": 28.166666666666668
     },
     {
       "keys": [
@@ -34979,9 +35114,9 @@
         "irq"
       ],
       "clicks": 0,
-      "impressions": 7,
+      "impressions": 6,
       "ctr": 0,
-      "position": 23.714285714285715
+      "position": 20.333333333333332
     },
     {
       "keys": [
@@ -35384,9 +35519,9 @@
         "tto"
       ],
       "clicks": 0,
-      "impressions": 1,
+      "impressions": 2,
       "ctr": 0,
-      "position": 6
+      "position": 8
     },
     {
       "keys": [
@@ -35520,19 +35655,19 @@
       "keys": [
         "PRODUCT_SNIPPETS"
       ],
-      "clicks": 743,
-      "impressions": 21805,
-      "ctr": 0.03407475349690438,
-      "position": 9.151754184819996
+      "clicks": 747,
+      "impressions": 21852,
+      "ctr": 0.03418451400329489,
+      "position": 9.13403807431814
     },
     {
       "keys": [
         "MERCHANT_LISTINGS"
       ],
-      "clicks": 126,
-      "impressions": 1013,
-      "ctr": 0.12438302073050346,
-      "position": 2.7462981243830207
+      "clicks": 127,
+      "impressions": 1014,
+      "ctr": 0.1252465483234714,
+      "position": 2.7514792899408285
     }
   ]
 }
